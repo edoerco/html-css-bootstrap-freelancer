@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-a {
-    font-style: none;
-}
-
 /* Scheletro */
 header {
     height: 100px;
@@ -17,7 +12,7 @@ header {
 }
 
 #jumbotron {
-    min-height: 400px;
+    /* min-height: 400px; */
     background-color: #19bc9c;
 }
 
@@ -43,16 +38,58 @@ header {
     min-height: 100px;
     background-color: #2c3f50;
 }
+
+section {
+    padding: 50px 0;
+}
 /*Fine Scheletro */
 
 /* header */
 #nav-header{
-    text-align: center;
+    text-align: right;
 }
 
 #nav-header a {
     padding: 0 10px;
 }
 /* Fine header */
+/* main */
+#jumbotron .img {
+    padding: 30px;
+}
+
+/* Fine main */
+
+/* debug */
+#jumbotron .img {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.debug .col-lg-1,
+.debug .col-lg-2,
+.debug .col-lg-3,
+.debug .col-lg-4,
+.debug .col-lg-5,
+.debug .col-lg-6,
+.debug .col-lg-7,
+.debug .col-lg-8,
+.debug .col-lg-9,
+.debug .col-lg-10,
+.debug .col-lg-11,
+.debug .col-lg-12 {
+    border: 1px solid black;
+}
+
+.debug .row {
+    border: 1px solid red;
+}
+
+.debug .quadrato {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
 
 
