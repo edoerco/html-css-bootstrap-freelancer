@@ -58,6 +58,13 @@ section {
     padding: 30px;
 }
 
+#bottone {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid;
+}
 /* Fine main */
 
 /* debug */
