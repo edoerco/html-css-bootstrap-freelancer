@@ -92,7 +92,33 @@ hr {
 .petrolio {
     color: #2c3f50;
 }
+
+.green {
+    color: limegreen;
+}
 /* fine common */
+
+/* header */
+#hamburger {
+    display: none;
+}
+
+#hamburger i {
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px 15px;
+}
+
+.fa-bars {
+    transition: 1s;
+}
+
+.fa-bars:hover {
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+
+/* fine header */
 /* main */
 /* jumbotron */
 #jumbotron .img {
@@ -155,18 +181,12 @@ footer {
     color: white;
 }
 
-.my__footerTop {
-    background: #3A546D;
-}
-
-.my__icons {width: 40px;
+.my__icons {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     border:1px solid white; 
-    cursor: pointer;}
-
-.my__footerBottom {
-    background: #2C3E50;
+    cursor: pointer;
 }
 
 .my__footerBottom span {
@@ -178,6 +198,24 @@ footer {
 }
 /* fine copyright */
 /* Fine Footer */
+
+/* midiaquery */
+@media (max-width: 991px) {
+    #hamburger {
+        display: block;
+    }
+
+    .fa-bars {
+        color: lightgray;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #nav-header {
+        display: none;
+    }
+    
+}
 
 /* debug */
 .debug .col-lg-1,
