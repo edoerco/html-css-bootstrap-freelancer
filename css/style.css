@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Helvetica Neue;
+}
+
 /* Scheletro */
 header {
     height: 100px;
@@ -50,19 +55,24 @@ hr {
 /* fine common */
 
 /* header */
-#nav-header{
-    text-align: right;
-}
-
-#nav-header a {
-    padding: 0 10px;
-}
 /* Fine header */
 /* main */
 /* jumbotron */
 #jumbotron .img {
-    padding: 30px;
+    height: 200px;
+    width: 200px;
 }
+/* portfolio */
+.quadrato {
+    height: 100%;
+    width: 100%;
+}
+
+.quadrato img {
+    width: 100%;
+    border-radius: 20px;
+}
+/* fine portfolio */
 /* about */
 #bottone {
     text-align: center;
@@ -85,12 +95,6 @@ hr {
 /* Fine Footer */
 
 /* debug */
-#jumbotron .img {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-}
-
 .debug .col-lg-1,
 .debug .col-lg-2,
 .debug .col-lg-3,
@@ -111,8 +115,6 @@ hr {
 }
 
 .debug .quadrato {
-    height: 200px;
-    width: 100%;
     background-color: red;
 }
 
