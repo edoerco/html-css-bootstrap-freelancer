@@ -43,6 +43,11 @@ section {
     padding: 50px 0;
 }
 /*Fine Scheletro */
+/* common */
+hr {
+    border: 2px solid;
+}
+/* fine common */
 
 /* header */
 #nav-header{
@@ -54,18 +59,30 @@ section {
 }
 /* Fine header */
 /* main */
+/* jumbotron */
 #jumbotron .img {
     padding: 30px;
 }
-
+/* about */
 #bottone {
     text-align: center;
 }
+/*fine about */
 
-hr {
-    border: 2px solid;
+.h100 {
+    height: 100px;
+}
+
+#send {
+    background-color: #19bc9c;
 }
 /* Fine main */
+
+/* Footer */
+#copyright span {
+    margin: auto;
+}
+/* Fine Footer */
 
 /* debug */
 #jumbotron .img {
