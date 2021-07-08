@@ -17,7 +17,6 @@ header {
 }
 
 #jumbotron {
-    /* min-height: 400px; */
     background-color: #19bc9c;
 }
 
@@ -52,10 +51,48 @@ section {
 hr {
     border: 2px solid;
 }
-/* fine common */
 
-/* header */
-/* Fine header */
+.fa-star {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.my-star::before,
+.my-star::after {
+    content:"";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.my-star i {
+    vertical-align: middle;
+}
+
+.my-star2::before,
+.my-star2::after {
+    content:"";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #2c3f50;
+}
+
+.my-star2 i {
+    vertical-align: middle;
+}
+
+.white {
+    color: white;
+}
+
+.petrolio {
+    color: #2c3f50;
+}
+/* fine common */
 /* main */
 /* jumbotron */
 #jumbotron .img {
@@ -66,6 +103,31 @@ hr {
 .quadrato {
     height: 100%;
     width: 100%;
+    position:relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    border-radius: 20px;
+}
+
+.fa-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+}
+
+.quadrato:hover .overlay {
+    display: block;
+    cursor: pointer;
 }
 
 .quadrato img {
@@ -89,9 +151,32 @@ hr {
 /* Fine main */
 
 /* Footer */
+footer {
+    color: white;
+}
+
+.my__footerTop {
+    background: #3A546D;
+}
+
+.my__icons {width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid white; 
+    cursor: pointer;}
+
+.my__footerBottom {
+    background: #2C3E50;
+}
+
+.my__footerBottom span {
+    font-size: small;
+}
+/* copyright */
 #copyright span {
     margin: auto;
 }
+/* fine copyright */
 /* Fine Footer */
 
 /* debug */
